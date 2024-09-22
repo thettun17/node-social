@@ -1,0 +1,17 @@
+{
+  "name": "yaycha-api",
+  "version": "1.0.0",
+  "description": "Backend API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thet Tun",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^9.0.1",
+    "@prisma/client": "^5.19.1",
+    "bcrypt": "^5.1.1",
+    "prisma": "^5.19.1"
+  }
+}
