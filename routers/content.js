@@ -43,7 +43,7 @@ router.get("/posts/:id", async (req, res, next) => {
     }
 })
 
-router.delete("/posts/:id", auth, isOwner("post"), async(req, res, next) => {
+router.delete("/posts/:id", auth,  async(req, res, next) => {
     try {
         const { id } = req.params
         await prisma.comment.deleteMany({
